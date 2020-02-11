@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="please_enter_your_details">Please enter your details \n to register.</string>
+    <string name="already_member">Already a member?</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="name">Name (*)</string>
+
+    <string name="email">Email (*)</string>
+    <string name="mobile">Mobile Number (*)</string>
+    <string name="residency">Residency (*)</string>
+    <string name="password">Password (*)</string>
+    <string name="register">Register</string>
+
+
+</resources>
