@@ -10,7 +10,20 @@
     <string name="mobile">Mobile Number (*)</string>
     <string name="residency">Residency (*)</string>
     <string name="password">Password (*)</string>
+    <string name="confirm_password">Confirm Password (*)</string>
+
     <string name="register">Register</string>
+
+    <string name="invalid_email">Invalid Email</string>
+
+    <string name="empty_name">Empty Name</string>
+
+    <string name="invalid_phone">Invalid Mobile Number</string>
+
+    <string name="isEmpty">This Field Can\'t be empty</string>
+
+    <string name="invalid_password">Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character.</string>
+    <string name="title_activity_register">RegisterActivity</string>
 
 
 </resources>

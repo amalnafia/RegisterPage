@@ -7,6 +7,7 @@
     <color name="colorLabel">#9798a4</color>
     <color name="colorText">#76777f</color>
     <color name="colorOrange">#fd5739</color>
+    <color name="colorToolbar">#ff001b</color>
 
 
 </resources>
