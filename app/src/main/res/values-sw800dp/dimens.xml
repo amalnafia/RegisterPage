@@ -11,5 +11,6 @@
     <dimen name="margin_mediam">75dp</dimen>
     <dimen name="margin_large">90dp</dimen>
     <dimen name="margin_xlarge">80dp</dimen>
+    <dimen name="text_size_xsmall">16sp</dimen>
 
 </resources>

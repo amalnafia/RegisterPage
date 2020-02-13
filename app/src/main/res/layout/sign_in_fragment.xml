@@ -6,13 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".ui.SignIn.SignInFragment">
 
-    <TextView
+    <ImageView
+        android:id="@+id/logo_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SignIn Fragment "
-        android:textSize="@dimen/text_size_mediam"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_small"
+        android:src="@drawable/jobshop_final_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mobile_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_sign_in">
+
+        <EditText
+            style="@style/edit_text_register_style"
+            android:textSize="@dimen/text_size_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobile_sign_in" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_xsmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_sign_in"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            style="@style/edit_text_register_style"
+            android:textSize="@dimen/text_size_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_sign_in"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/sign_in_button"
+        style="@style/button_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:background="@drawable/rectangle_sign_in"
+        android:padding="7dp"
+        android:text="@string/login_sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_sign_in" />
+
+    <TextView
+        android:id="@+id/not_member_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size_xsmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_button"
+        tools:text="Don't have account? Register" />
+
+    <TextView
+        android:id="@+id/forgot_password_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorToolbar"
+        android:textSize="@dimen/text_size_xsmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_button"
+        android:text="@string/forget_password" />
 </androidx.constraintlayout.widget.ConstraintLayout>

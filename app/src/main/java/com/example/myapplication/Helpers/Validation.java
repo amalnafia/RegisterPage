@@ -56,4 +56,16 @@ public class Validation {
             return true;
         }
     }
+
+    //LoginValidation
+    public boolean loginDataValidation(String inputData, TextInputLayout textInputLayout, String validationMsg) {
+        if (!inputData.equals(textInputLayout.getEditText().getText().toString())) {
+            textInputLayout.setError(validationMsg);
+            return false;
+        } else {
+            textInputLayout.setError("");
+            return true;
+        }
+    }
+
 }

@@ -2,6 +2,8 @@
     <string name="app_name">My Application</string>
     <string name="please_enter_your_details">Please enter your details \n to register.</string>
     <string name="already_member">Already a member?</string>
+    <string name="not_member">Don\'t have account?</string>
+
     <string name="sign_in">Sign In</string>
 
     <string name="name">Name (*)</string>
@@ -10,23 +12,28 @@
     <string name="mobile">Mobile Number (*)</string>
     <string name="residency">Residency (*)</string>
     <string name="password">Password (*)</string>
+    <string name="password_sign_in">Password</string>
     <string name="confirm_password">Confirm Password (*)</string>
-
+    <string name="forget_password">Forget Password?</string>
     <string name="register">Register</string>
+
+    <string name="login_sign_in">Login</string>
 
     <string name="invalid_email">Invalid Email</string>
 
     <string name="empty_name">Empty Name</string>
 
     <string name="invalid_phone">Invalid Mobile Number</string>
+    <string name="incorrect_password">Incorrect Password</string>
 
     <string name="isEmpty">This Field Can\'t be empty</string>
+
 
     <string name="invalid_password">Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character.</string>
     <string name="title_activity_register">RegisterActivity</string>
 
-    <string name="does_not_match">password doesnt match</string>
+    <string name="does_not_match">password doesn\'t match</string>
+    <string name="mobile_sign_in">Mobile Number</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
